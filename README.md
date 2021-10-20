@@ -8,3 +8,8 @@ But the trouble is, the service does not work correctly, or rather, the function
 ![Screenshot from 2021-10-19 18-29-33](https://user-images.githubusercontent.com/57565730/138013017-aed1f55c-fe01-42d7-a7f0-4c5265a934fc.png)
 AND BUG Service 
 ![Screenshot from 2021-10-19 18-30-23](https://user-images.githubusercontent.com/57565730/138013063-98d6236f-b6f4-48c9-bcd4-716d8e61c86c.png)
+2. Well, now you need to do some exploration and see what this site is fraught with. 
+  > - To begin with, you can use the nmap tool, you need to find out which ports are open (look outside) and analyze the overall picture of the service structure
+  > ```console
+  > git clone https://github.com/sakyra01/CatPaw_OSINT.git
+  >``` 
