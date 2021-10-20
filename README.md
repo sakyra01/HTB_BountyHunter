@@ -52,7 +52,7 @@ I think it's better to find ssh credentials information somewhere...
 
    > For more information about XXE look here
     
-    [id]: (https://gist.github.com/staaldraad/01415b990939494879b4) 
+   [1]: (https://gist.github.com/staaldraad/01415b990939494879b4) 
 
 
  
