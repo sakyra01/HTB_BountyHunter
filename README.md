@@ -9,8 +9,17 @@ But the trouble is, the service does not work correctly, or rather, the function
 AND BUG Service 
 ![Screenshot from 2021-10-19 18-30-23](https://user-images.githubusercontent.com/57565730/138013063-98d6236f-b6f4-48c9-bcd4-716d8e61c86c.png)
 2. Well, now you need to do some exploration and see what this site is fraught with. 
-  > - To begin with, you can use the nmap tool, you need to find out which ports are open (look outside) and analyze the overall picture of the service structure
+  > To begin with, you can use the nmap tool, you need to find out which ports are open (look outside) and analyze the overall picture of the service structure
    ```console
    ~$ nmap -Pn -A 10.10.11.100
    ``` 
   ![Screenshot from 2021-10-19 18-41-06](https://user-images.githubusercontent.com/57565730/138013851-0f1808e4-d197-45e5-8241-60f550b624db.png)
+The fact that ports 22 and 80 are open is good news, as an option for the future it is possible to brute force port 22 of ssh, but this is a bad idea. 
+I think it's better to find ssh credentials information somewhere...
+  > Now I want to look diffrent possible paths which include this service
+  > And I'm going to use dirsearch tool, which you can easily find on github
+   ```console
+   ~$ ./dirsearch.py -u 10.10.11.100
+   ``` 
+   That's what i get btw:
+  ![Screenshot from 2021-10-19 18-52-09](https://user-images.githubusercontent.com/57565730/138014769-d9fa18cb-aa45-4897-9e61-f7975debe988.png)
