@@ -50,7 +50,7 @@ I think it's better to find ssh credentials information somewhere...
 
 4. Now we need to figure out how to exploit the xxe vulnerability associated with the injection of additional parameters into the xml, which the server will then return to us.
 
-   > For more information about XXE look here
+   For more information about XXE look here:
     
     1. https://cisoclub.ru/rukovodstvo-po-xxe-injection/ - XXE Injection Guide
     2. https://gist.github.com/staaldraad/01415b990939494879b4) - XXE_payloads
