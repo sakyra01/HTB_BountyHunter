@@ -55,7 +55,32 @@ I think it's better to find ssh credentials information somewhere...
     * https://cisoclub.ru/rukovodstvo-po-xxe-injection/ - XXE Injection Guide
     
     * https://gist.github.com/staaldraad/01415b990939494879b4) - XXE_payloads
+   
+   And so, I tried to implement DOCTYPE foo ENTITY for / etc / passwd. I could not successfully run xxe through Burp Suite, so I decided to use the developer's console in the browser. But in any case, I suggest that you try to write your own xxe and remember to encode the xml in base64, then add new data, send a request and see what the server will give you. In my case, I used pure xml code and return secret (btoa (xml))
 
-Great, I 
- 
+
+   ![Screenshot from 2021-10-20 10-44-41](https://user-images.githubusercontent.com/57565730/138179229-f9bea4da-2d60-47e4-b1fc-fbf6385e6b47.png)
+
+  > I find here user development maybe he will be usefull in future
+  
+  Here I used xxe to locally connect to the db.php file...
+  
+  ![Screenshot from 2021-10-20 10-44-41](https://user-images.githubusercontent.com/57565730/138179667-4ed51b82-0f8b-4289-a7f3-ddd7af59f8ef.png)
+
+  Well done! We find xml data in base64. Only what we need just decrypt and look on it!
+
+5. Decrypt our Data. Here is some very interesting information
+
+![Screenshot_1](https://user-images.githubusercontent.com/57565730/138179922-d3688a6f-2d56-4e7e-b3d2-8af0a777f366.png)
+
+I tried to connect server by 22 ssh port using bounty and admin names but it didn't work. Then I remembered about development user
+
+   ```console
+   ~$ ssh development@10.10.11.100 
+   ``` 
+   
+![Screenshot from 2021-10-21 01-18-33](https://user-images.githubusercontent.com/57565730/138180443-06004998-0c85-4afb-9067-227346f2ef8e.png)
+
+
+
  
