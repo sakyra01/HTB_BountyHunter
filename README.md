@@ -25,3 +25,6 @@ I think it's better to find ssh credentials information somewhere...
    That's what i get btw:
    
   ![Screenshot from 2021-10-19 18-52-09](https://user-images.githubusercontent.com/57565730/138014769-d9fa18cb-aa45-4897-9e61-f7975debe988.png)
+
+  > There are a couple of interesting local files here, db.php is empty, but we find something interesting in the README ...
+  ![Screenshot from 2021-10-19 18-56-46](https://user-images.githubusercontent.com/57565730/138015184-f8a02acf-628d-4360-ac09-730e76ea0189.png)
