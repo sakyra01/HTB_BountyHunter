@@ -83,7 +83,7 @@ I tried to connect server by 22 ssh port using bounty and admin names but it did
 
    
    ```console
-   ~$ cat user.txt  // We have out user flag, well done! 
+   ~$ cat user.txt  
    ``` 
 
- 
+  We have out user flag, well done! 
