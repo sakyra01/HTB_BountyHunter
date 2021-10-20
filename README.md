@@ -21,5 +21,7 @@ I think it's better to find ssh credentials information somewhere...
    ```console
    ~$ ./dirsearch.py -u 10.10.11.100
    ``` 
+   
    That's what i get btw:
+   
   ![Screenshot from 2021-10-19 18-52-09](https://user-images.githubusercontent.com/57565730/138014769-d9fa18cb-aa45-4897-9e61-f7975debe988.png)
