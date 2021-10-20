@@ -14,6 +14,7 @@ Well, below is a description of the machine itself and its specific parameters, 
    ~$ nmap -Pn -A 10.10.11.100
    ``` 
   ![Screenshot from 2021-10-19 18-41-06](https://user-images.githubusercontent.com/57565730/138013851-0f1808e4-d197-45e5-8241-60f550b624db.png)
+  
 The fact that ports 22 and 80 are open is good news, as an option for the future it is possible to brute force port 22 of ssh, but this is a bad idea. 
 I think it's better to find ssh credentials information somewhere...
   > Now I want to look diffrent possible paths which include this service
