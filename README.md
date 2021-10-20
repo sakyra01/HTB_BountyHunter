@@ -11,5 +11,6 @@ AND BUG Service
 2. Well, now you need to do some exploration and see what this site is fraught with. 
   > - To begin with, you can use the nmap tool, you need to find out which ports are open (look outside) and analyze the overall picture of the service structure
    ```console
-   git clone https://github.com/sakyra01/CatPaw_OSINT.git
-  ``` 
+   ~$ nmap -Pn -A 10.10.11.100
+   ``` 
+  ![Screenshot from 2021-10-19 18-41-06](https://user-images.githubusercontent.com/57565730/138013851-0f1808e4-d197-45e5-8241-60f550b624db.png)
