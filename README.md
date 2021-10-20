@@ -44,7 +44,16 @@ I think it's better to find ssh credentials information somewhere...
 
 ![Screenshot from 2021-10-21 00-25-42](https://user-images.githubusercontent.com/57565730/138175861-25cf5382-2e4b-4139-bbc7-91eab34a4518.png)
 
-   
+  Data is base64 encoded xml, the next step I am convinced of this
+
+![изображение](https://user-images.githubusercontent.com/57565730/138176625-394fd5cc-ad94-45ed-974d-51ce5be4ec94.png)
+
+4. Now we need to figure out how to exploit the xxe vulnerability associated with the injection of additional parameters into the xml, which the server will then return to us.
+
+   > For more information about XXE look here
+    
+    [id]: https://gist.github.com/staaldraad/01415b990939494879b4 
+
 
  
  
