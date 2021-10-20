@@ -52,9 +52,9 @@ I think it's better to find ssh credentials information somewhere...
 
    For more information about XXE look here:
     
-    1 https://cisoclub.ru/rukovodstvo-po-xxe-injection/ - XXE Injection Guide
+    * https://cisoclub.ru/rukovodstvo-po-xxe-injection/ - XXE Injection Guide
     
-    2 https://gist.github.com/staaldraad/01415b990939494879b4) - XXE_payloads
+    * https://gist.github.com/staaldraad/01415b990939494879b4) - XXE_payloads
 
 
  
