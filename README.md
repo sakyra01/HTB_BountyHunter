@@ -73,7 +73,7 @@ I think it's better to find ssh credentials information somewhere...
 
 ![Screenshot_1](https://user-images.githubusercontent.com/57565730/138179922-d3688a6f-2d56-4e7e-b3d2-8af0a777f366.png)
 
-I tried to connect server by 22 ssh port using bounty and admin names but it didn't work. Then I remembered about development user
+I tried to connect server by 22 ssh port using bounty and admin names but it didn't work. Then I remembered about development user and entering password from xml data
 
    ```console
    ~$ ssh development@10.10.11.100 
@@ -81,6 +81,9 @@ I tried to connect server by 22 ssh port using bounty and admin names but it did
    
 ![Screenshot from 2021-10-21 01-18-33](https://user-images.githubusercontent.com/57565730/138180443-06004998-0c85-4afb-9067-227346f2ef8e.png)
 
-
+   
+   ```console
+   ~$ cat user.txt  // We have out user flag, well done! 
+   ``` 
 
  
