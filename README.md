@@ -30,6 +30,7 @@ I think it's better to find ssh credentials information somewhere...
   > There are a couple of interesting local files here, db.php is empty, but we find something interesting in the README ...
   
   ![Screenshot from 2021-10-19 18-56-46](https://user-images.githubusercontent.com/57565730/138015184-f8a02acf-628d-4360-ac09-730e76ea0189.png)
+  
 3. We have collected some information for a more successful injection on the server. Well, what interested me the most was the submit.php path. 
    I decided to use Burp Suite to intercept and modify server requests. How example i tried look on this page:
  
