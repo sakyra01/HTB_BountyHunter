@@ -30,3 +30,20 @@ I think it's better to find ssh credentials information somewhere...
   > There are a couple of interesting local files here, db.php is empty, but we find something interesting in the README ...
   
   ![Screenshot from 2021-10-19 18-56-46](https://user-images.githubusercontent.com/57565730/138015184-f8a02acf-628d-4360-ac09-730e76ea0189.png)
+3. We have collected some information for a more successful injection on the server. Well, what interested me the most was the submit.php path. 
+   I decided to use Burp Suite to intercept and modify server requests. How example i tried look on this page:
+ 
+ > I gues we can find here xml
+ 
+ ![Screenshot from 2021-10-21 00-19-01](https://user-images.githubusercontent.com/57565730/138175483-1fe3628b-e6eb-4443-a7eb-e966396e0a46.png)
+
+  Next step is to research Bounty Report System:
+  
+  > I push POST request on the server and get this Responce
+
+![Screenshot from 2021-10-21 00-25-42](https://user-images.githubusercontent.com/57565730/138175861-25cf5382-2e4b-4139-bbc7-91eab34a4518.png)
+
+   
+
+ 
+ 
