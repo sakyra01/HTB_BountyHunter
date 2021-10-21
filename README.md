@@ -58,8 +58,8 @@ I think it's better to find ssh credentials information somewhere...
    
    And so, I tried to implement DOCTYPE foo ENTITY for / etc / passwd. I could not successfully run xxe through Burp Suite, so I decided to use the developer's console in the browser. But in any case, I suggest that you try to write your own xxe and remember to encode the xml in base64, then add new data, send a request and see what the server will give you. In my case, I used pure xml code and return secret (btoa (xml))
 
+    ![Screenshot from 2021-10-20 10-42-08](https://user-images.githubusercontent.com/57565730/138210595-b585008e-8bc7-42c3-a589-19a7f6c96720.png)
 
-   ![Screenshot from 2021-10-20 10-44-41](https://user-images.githubusercontent.com/57565730/138179229-f9bea4da-2d60-47e4-b1fc-fbf6385e6b47.png)
 
   > I find here user development maybe he will be usefull in future
   
