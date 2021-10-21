@@ -18,7 +18,7 @@ Well, below is a description of the machine itself and its specific parameters, 
 The fact that ports 22 and 80 are open is good news, as an option for the future it is possible to brute force port 22 of ssh, but this is a bad idea. 
 I think it's better to find ssh credentials information somewhere...
   > Now I want to look diffrent possible paths which include this service
-  > And I'm going to use dirsearch tool, which you can easily find on github
+  > And I'm going to use dirsearch tool, which you can easily find on github - https://github.com/maurosoria/dirsearch
    ```console
    ~$ ./dirsearch.py -u 10.10.11.100
    ``` 
